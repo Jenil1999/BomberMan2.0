@@ -47,6 +47,8 @@ public class Level : MonoBehaviour
         for (i = 0; i < 14; i++)
         {
             _enemies[i].gameObject.SetActive(false);
+            UiManager.Instance._enemyCount = 0;
+            UiManager.Instance.UIDetails();
         }
     }
 }

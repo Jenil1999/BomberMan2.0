@@ -37,7 +37,7 @@ public class UiManager : MonoBehaviour
 
     public static UiManager Instance;
 
-    private void Start()
+    private void Start()   
     {
         _lifeLine = 3;
         _enemyCount = 8;
